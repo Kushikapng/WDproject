@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Patrick Hand', cursive;
+  background-image: url(https://img.freepik.com/premium-vector/brown-pattern-with-dog-cat-paw-prints-vector-seamless-background_104589-1153.jpg?w=360);
+  background-repeat:repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #fbe5cd;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 50px rgba(114, 71, 25, 0.3);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+.login-container h2 {
+  color: #724719;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background-color: #d6ae86;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 4px solid #724719;
+}
+
+.avatar img {
+  width: 70%;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  text-align: left;
+  color: #5c3d1f;
+  font-weight: bold;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #c5a471;
+  background-color: #fff6ee;
+  font-family: inherit;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #724719;
+  box-shadow: 0 0 5px rgba(114, 71, 25, 0.5);
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #5c3d1f;
+}
+
+.checkbox-group a {
+  color: #a36a3f;
+  text-decoration: underline;
+}
+
+button {
+  background-color: #724719;
+  color: #f6c595;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #8a5723;
+  transform: scale(1.05);
+}
+input[type="password"] {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  letter-spacing: 2px; /* optional: to enhance security look */
+}
